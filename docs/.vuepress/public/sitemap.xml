@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://minifunctions.com/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/about/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/archives/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/cd/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/chmod/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/chmod/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/chmod/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/clear/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/clear/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/clear/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/configuration/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB"
+      href="https://minifunctions.com/aliases/configuration/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/configuration/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/default/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/default/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/default/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/dig/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/dig/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/dig/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/du/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/du/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/du/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/editor/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/editor/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/editor/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/find/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/gcloud/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/gcloud/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/gcloud/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/git/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/git/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/git/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/gnu/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/gnu/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/gnu/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/heroku/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/heroku/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/heroku/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/interactive/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/jekyll/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/jekyll/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/jekyll/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/list/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/make/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/make/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/make/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/mkdir/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/mkdir/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/mkdir/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/npm/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/npm/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/npm/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/pnpm/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/pnpm/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/pnpm/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/ps/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/ps/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/ps/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/rsync/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/rsync/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/rsync/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/rust/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/rust/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/rust/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/subversion/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB"
+      href="https://minifunctions.com/aliases/subversion/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/subversion/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/sudo/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/sudo/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/sudo/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/tmux/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/tmux/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/tmux/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/update/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/uuid/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/uuid/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/uuid/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/aliases/wget/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/wget/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/wget/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/alias/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/alias/archives/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/alias/cd/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/chmod/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/chmod/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/chmod/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/clear/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/clear/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/clear/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/configuration/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB"
+      href="https://minifunctions.com/aliases/configuration/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/configuration/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/default/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/default/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/default/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/dig/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/dig/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/dig/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/du/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/du/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/du/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/editor/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/editor/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/editor/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/gcloud/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/gcloud/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/gcloud/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/liste/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/jekyll/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/jekyll/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/jekyll/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/make/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/make/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/make/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/mise-a-jour/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/mkdir/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/mkdir/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/mkdir/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/mode-interactif/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/npm/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/npm/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/npm/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/pnpm/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/pnpm/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/pnpm/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/ps/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/ps/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/ps/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/alias/recherche/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/rsync/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/rsync/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/rsync/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/rust/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/rust/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/rust/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/subversion/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB"
+      href="https://minifunctions.com/aliases/subversion/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR"
+      href="https://minifunctions.com/fr/aliases/subversion/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/sudo/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/sudo/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/sudo/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/tmux/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/tmux/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/tmux/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/uuid/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/uuid/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/uuid/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/wget/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/wget/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/wget/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/apropos/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/heroku/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/heroku/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/heroku/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/gnu/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/gnu/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/gnu/" />
+  </url>
+  <url>
+    <loc>https://minifunctions.com/fr/aliases/git/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://minifunctions.com/aliases/git/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://minifunctions.com/fr/aliases/git/" />
+  </url>
+</urlset>

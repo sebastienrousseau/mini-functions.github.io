@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[{configure,configure.*,config.*,*.{sh,yml,yaml}}]
+indent_size = 2
+indent_style = spaces
+
+[{makefile.vc,nmake.opt}]
+end_of_line = crlf
+indent_style = tab
+
+[Makefile]
+indent_style = tab
+
+[*.json]
+indent_style = tab

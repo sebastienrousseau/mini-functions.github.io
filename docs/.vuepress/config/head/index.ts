@@ -1,0 +1,127 @@
+export const headers: string[] = [
+  ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+  [
+    'link',
+    {
+      rel: 'apple-touch-icon',
+      href: '/icons/mini-functions-180x180.png',
+      sizes: '180x180',
+    },
+  ],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon-16x16.png',
+      sizes: '16x16',
+    },
+  ],
+  [
+    'link',
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon-32x32.png',
+      sizes: '32x32',
+    },
+  ],
+  ['link', { rel: 'manifest', href: '/manifest.json' }],
+  [
+    'link',
+    { rel: 'mask-icon', href: '/icons/mini-functions.svg', color: '#ffffff' },
+  ],
+  [
+    'link',
+    {
+      rel: 'preload',
+      href: 'https://unpkg.com/skeletonic-stylus@1.0.5/css/skeletonic-fonts.min.css',
+      as: 'style',
+      onload: "this.onload=null;this.rel='stylesheet'",
+    },
+  ],
+  [
+    'meta',
+    {
+      'http-equiv': 'Cache-Control',
+      'content': 'no-cache, no-store, must-revalidate',
+      'max-age': '0',
+    },
+  ],
+  ['meta', { 'http-equiv': 'Expires', 'content': '0' }],
+  ['meta', { 'http-equiv': 'Pragma', 'content': 'no-cache' }],
+  ['meta', { 'http-equiv': 'X-UA-Compatible', 'content': 'IE=edge' }],
+  ['meta', { itemprop: 'accessibilityAPI', content: 'ARIA' }],
+  [
+    'meta',
+    { itemprop: 'accessibilityControl', content: 'fullKeyboardControl' },
+  ],
+  ['meta', { itemprop: 'accessibilityControl', content: 'fullMouseControl' }],
+  ['meta', { itemprop: 'accessibilityHazard', content: 'noFlashingHazard' }],
+  [
+    'meta',
+    { itemprop: 'accessibilityHazard', content: 'noMotionSimulationHazard' },
+  ],
+  ['meta', { itemprop: 'accessibilityHazard', content: 'noSoundHazard' }],
+  ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+  ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+  ['meta', { name: 'apple-mobile-web-app-title', content: 'Mini Functions' }],
+  ['meta', { name: 'application-name', content: 'Mini Functions' }],
+  ['meta', { name: 'author', content: 'Sebastien Rousseau' }],
+  ['meta', { name: 'charset', content: 'utf-8' }],
+  ['meta', { name: 'format-detection', content: 'telephone=no' }],
+  [
+    'meta',
+    { name: 'msvalidate1', content: '9B319D8B2CBE7A0E3715EC80C9918F4A' },
+  ],
+  ['meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
+  ['meta', { name: 'msapplication-config', content: '/browserconfig.xml' }],
+  ['meta', { name: 'msapplication-tap-highlight', content: 'no' }],
+  ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }],
+  [
+    'meta',
+    {
+      name: 'msapplication-TileImage',
+      content: '/icons/mini-functions-144x144.png',
+    },
+  ],
+  ['meta', { name: 'og:image:height', content: '627' }],
+  ['meta', { name: 'og:image:type', content: 'image/png' }],
+  ['meta', { name: 'og:image:width', content: '1200' }],
+  ['meta', { name: 'og:image', content: '/logo.png' }],
+  ['meta', { name: 'og:locale', content: 'en_GB' }],
+  ['meta', { name: 'og:robots', content: 'all' }],
+  ['meta', { name: 'og:site_name', content: 'mini-functions' }],
+  ['meta', { name: 'og:type', content: 'website' }],
+  ['meta', { name: 'og:url', content: 'https://minifunctions.com/' }],
+  ['meta', { name: 'robots', content: 'all' }],
+  ['meta', { name: 'theme-color', content: '#f75308' }],
+  ['meta', { name: 'theme-color', content: '#f75308' }],
+  ['meta', { name: 'twitter:creator', content: '@wwdseb' }],
+  ['meta', { name: 'twitter:image', content: '/logo.png' }],
+  ['meta', { name: 'twitter:site', content: '@wwdseb' }],
+  ['meta', { name: 'twitter:url', content: 'https://minifunctions.com/' }],
+  [
+    'meta',
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+  ],
+  [
+    'script',
+    {
+      async: true,
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-2FNM3K7KB5',
+    },
+  ],
+  [
+    'script',
+    {},
+    [
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-2FNM3K7KB5', { 'anonymize_ip': true });",
+    ],
+  ],
+  [
+    'script',
+    {},
+    `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "ezhcileqzy");`,
+  ],
+]

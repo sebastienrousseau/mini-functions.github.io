@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "author": "Sebastien Rousseau",
+  "background_color": "#25272a",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "linux": "Alt+Shift+E",
+        "mac": "Command+Shift+E",
+        "windows": "Alt+Shift+E"
+      }
+    },
+    "toggle-feature": {
+      "description": "Enable/disable the extension",
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      }
+    }
+  },
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "default_locale": "en",
+  "description": "Highly performant utility and wrapper functions library for Rust.",
+  "developer": {
+    "name": "Sebastien Rousseau",
+    "url": "https://github.com/sebastienrousseau"
+  },
+  "display": "standalone",
+  "homepage_url": "https://minifunctions.com/",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "/icons/mini-functions-192x192.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/icons/mini-functions-512x512.png",
+      "type": "image/png"
+    }
+  ],
+  "id": "/index.html",
+  "incognito": "not_allowed",
+  "lang": "en_gb",
+  "name": "Mini Functions",
+  "offline_enabled": true,
+  "orientation": "portrait-primary",
+  "scope": "/index.html",
+  "short_name": "Mini Functions",
+  "start_url": "/index.html",
+  "theme_color": "#f75308",
+  "version": "1.0.0"
+}
