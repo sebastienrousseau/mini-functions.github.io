@@ -79,7 +79,7 @@ Add the following line to your Cargo.toml file:
 
 ```toml
 [dependencies]
-mini-functions = "0.0.1"
+mini-functions = "0.0.2"
 ```
 
 Then, add the following line to your main.rs file:
