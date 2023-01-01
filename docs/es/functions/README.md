@@ -97,3 +97,27 @@ ISO 8601, que es una representación estandarizada de fechas y horas.
 
 En general, estas funciones pueden ser útiles para recuperar y manipular
 información sobre la fecha y hora actuales en un programa.
+
+## Funciones de registro
+
+En esta sección puedes encontrar información sobre las funciones Log que
+soporta la librería `mini-functions`.
+
+Las funciones Log se utilizan para registrar un mensaje en la consola,
+lo que puede ser útil para depurar un programa.
+
+La función Log se encuentra actualmente en la siguiente tabla:
+
+### Tabla 2 - Función Log (log.rs)
+
+| Función | Descripción |
+| -------- | ----------- |
+| `new` | Crea una nueva instancia de registro. |
+| `log` | Registra un mensaje en la consola. |
+
+La función `new` crea una nueva instancia de log, que puede utilizarse
+para registrar mensajes en la consola. La función `log` registra un
+mensaje en la consola utilizando la instancia log.
+
+En general, estas funciones pueden ser útiles para registrar mensajes en
+la consola, lo que puede ser útil para depurar un programa.

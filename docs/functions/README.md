@@ -96,3 +96,27 @@ times.
 
 Overall, these functions can be useful for retrieving and manipulating
 information about the current date and time in a program.
+
+## Log functions
+
+In this section, you can find information about the Log functions that
+the `mini-functions` library supports.
+
+The Log functions are used to log a message to the console, which can be
+useful for debugging a program.
+
+The Log function is currently listed in the following table:
+
+### Table 2 - Log Function (log.rs)
+
+| Function | Description |
+| -------- | ----------- |
+| `new` | Creates a new log instance. |
+| `log` | Logs a message to the console. |
+
+The `new` function creates a new log instance, which can be used to log
+messages to the console. The `log` function logs a message to the
+console using the log instance.
+
+Overall, these functions can be useful for logging messages to the
+console, which can be useful for debugging a program.

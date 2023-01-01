@@ -100,3 +100,29 @@ ISO 8601, qui est une représentation normalisée des dates et des heures.
 Globalement, ces fonctions peuvent être utiles pour récupérer et
 manipuler des informations sur la date et l'heure actuelles dans un
 programme.
+
+## Fonctions de log
+
+Dans cette section, vous trouverez des informations sur les fonctions
+Log que la bibliothèque `mini-functions` supporte.
+
+Les fonctions Log sont utilisées pour enregistrer un message sur la
+console, ce qui peut être utile pour déboguer un programme.
+
+La fonction Log est actuellement répertoriée dans le tableau suivant :
+
+### Tableau 2 - Fonction logarithmique (log.rs)
+
+| Fonction | Description |
+| -------- | ----------- |
+| `new` | Crée une nouvelle instance de log. |
+| `log` | Enregistre un message sur la console. |
+
+La fonction `new` crée une nouvelle instance de journal, qui peut être
+utilisée pour enregistrer des messages dans la console. La fonction
+`log` enregistre un message sur la console en utilisant l'instance de
+journal.
+
+Globalement, ces fonctions peuvent être utiles pour enregistrer des
+messages sur la console, ce qui peut être utile pour déboguer un
+programme.

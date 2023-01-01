@@ -101,3 +101,30 @@ und Zeiten ist.
 Insgesamt können diese Funktionen nützlich sein für das Abrufen und
 Bearbeiten von Informationen über das aktuelle Datum und die Uhrzeit in
 einem Programm.
+
+## Funktionen für log
+
+In diesem Abschnitt finden Sie Informationen über die Log-Funktionen,
+die von der `mini-functions`-Bibliothek unterstützt werden.
+
+Die Log-Funktionen werden verwendet, um eine Nachricht auf der Konsole
+zu protokollieren, was bei der Fehlersuche in einem Programm nützlich
+sein kann.
+
+Die Protokollfunktion ist derzeit in der folgenden Tabelle aufgeführt:
+
+### Tabelle 2 - Log-Funktion (log.rs)
+
+| Funktion | Beschreibung |
+| -------- | ----------- |
+| `new` | Erzeugt eine neue Protokollinstanz. |
+| `log` | Protokolliert eine Meldung auf der Konsole. |
+
+Die Funktion `new` erzeugt eine neue Log-Instanz, die dazu verwendet
+werden kann, Meldungen auf der Konsole zu protokollieren. Die Funktion
+`log` protokolliert eine Nachricht auf der Konsole unter Verwendung der
+log-Instanz.
+
+Insgesamt können diese Funktionen nützlich sein, um Nachrichten auf der
+Konsole zu protokollieren, was bei der Fehlersuche in einem Programm
+hilfreich sein kann.
