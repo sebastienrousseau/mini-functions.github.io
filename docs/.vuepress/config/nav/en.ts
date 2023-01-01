@@ -6,4 +6,9 @@ export const enNavbar: NavbarConfig = [
     link: '/about/',
     text: 'About',
   },
+  {
+    arialabel: 'Functions library',
+    link: '/functions/',
+    text: 'Functions',
+  },
 ]

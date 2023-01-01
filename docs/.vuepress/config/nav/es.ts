@@ -6,4 +6,9 @@ export const esNavbar: NavbarConfig = [
     link: '/es/about/',
     text: 'Sobre',
   },
+  {
+    arialabel: 'Biblioteca de funciones',
+    link: '/es/functions/',
+    text: 'Funciones',
+  },
 ]

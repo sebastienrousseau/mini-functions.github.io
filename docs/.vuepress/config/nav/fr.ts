@@ -6,4 +6,9 @@ export const frNavbar: NavbarConfig = [
     link: '/fr/about/',
     text: 'À propos',
   },
+  {
+    arialabel: 'Bibliothèque des fonctions',
+    link: '/fr/functions/',
+    text: 'Fonctions',
+  },
 ]
