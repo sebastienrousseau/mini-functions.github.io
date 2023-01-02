@@ -11,4 +11,9 @@ export const esNavbar: NavbarConfig = [
     link: '/es/functions/',
     text: 'Funciones',
   },
+  {
+    arialabel: 'UUID',
+    link: '/es/uuid/',
+    text: 'UUID',
+  },
 ]

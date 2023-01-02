@@ -11,4 +11,9 @@ export const deNavbar: NavbarConfig = [
     link: '/de/functions/',
     text: 'Funktionen',
   },
+  {
+    arialabel: 'UUID',
+    link: '/de/uuid/',
+    text: 'UUID',
+  },
 ]
