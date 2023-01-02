@@ -1,6 +1,6 @@
-import { headers } from './config/head' // Import headers
-import { deNavbar, enNavbar, esNavbar, frNavbar } from './config/nav' // Import English navbar
-import { deSidebar, enSidebar, esSidebar, frSidebar } from './config/sidebar' // Import English sidebar
+import { headers } from './config/head'; // Import headers
+import { deNavbar, enNavbar, esNavbar, frNavbar } from './config/nav'; // Import English navbar
+import { deSidebar, enSidebar, esSidebar, frSidebar } from './config/sidebar'; // Import English sidebar
 
 module.exports = {
   base: '/',
@@ -141,7 +141,6 @@ module.exports = {
       {
         serviceWorker: true,
         updatePopup: true,
-        updateIcon: true,
         ignore: [
           '/404.html',
           '/offline.html',
