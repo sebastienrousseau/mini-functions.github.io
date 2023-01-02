@@ -120,3 +120,32 @@ console using the log instance.
 
 Overall, these functions can be useful for logging messages to the
 console, which can be useful for debugging a program.
+
+## UUID functions
+
+In this section, you can find information about the UUID functions that
+the `mini-functions` library supports.
+
+The UUID functions are used to generate a UUID, which is a unique
+identifier that can be used to identify a specific object.
+
+The UUID functions are currently listed in the following table:
+
+### Table 3 - UUID Functions (uuid.rs)
+
+| Function | Description |
+| -------- | ----------- |
+| `new` | Creates a new UUID instance. |
+| `uuid_v3` | Generates a UUID v3. |
+| `uuid_v4` | Generates a UUID v4. |
+| `uuid_v5` | Generates a UUID v5. |
+
+The `new` function creates a new UUID instance, which can be used to
+generate UUIDs. The `uuid_v3`, `uuid_v4`, and `uuid_v5` functions
+generate a UUID using a specific version of the UUID standard.
+
+Overall, these functions can be useful for generating UUIDs, which can
+be useful for identifying a specific object. The `uuid_v3` and `uuid_v5`
+functions can be useful for generating UUIDs that are based on a name,
+while the `uuid_v4` function can be useful for generating UUIDs that are
+random.

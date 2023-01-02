@@ -121,3 +121,33 @@ mensaje en la consola utilizando la instancia log.
 
 En general, estas funciones pueden ser útiles para registrar mensajes en
 la consola, lo que puede ser útil para depurar un programa.
+
+## Funciones UUID
+
+En esta sección, puedes encontrar información sobre las funciones UUID
+que soporta la librería `mini-functions`.
+
+Las funciones UUID se utilizan para generar un UUID, que es un
+identificador único que puede utilizarse para identificar un objeto
+específico.
+
+Las funciones UUID se enumeran actualmente en la siguiente tabla:
+
+### Tabla 3 - Funciones UUID (uuid.rs)
+
+| Función | Descripción |
+| -------- | ----------- |
+| `new` | Crea una nueva instancia UUID. |
+| `uuid_v3` | Genera un UUID v3. |
+| `uuid_v4` | Genera un UUID v4. |
+| `uuid_v5` | Genera un UUID v5. |
+
+La función `new` crea una nueva instancia UUID, que puede utilizarse
+para generar UUIDs. Las funciones `uuid_v3`, `uuid_v4` y `uuid_v5`
+generan un UUID utilizando una versión específica del estándar UUID.
+
+En general, estas funciones pueden ser útiles para generar UUIDs, que
+pueden ser útiles para identificar un objeto específico. Las funciones
+`uuid_v3` y `uuid_v5` pueden ser útiles para generar UUIDs basados en un
+nombre, mientras que la función `uuid_v4` puede ser útil para generar
+UUIDs aleatorios.

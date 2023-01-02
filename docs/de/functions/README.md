@@ -128,3 +128,34 @@ log-Instanz.
 Insgesamt können diese Funktionen nützlich sein, um Nachrichten auf der
 Konsole zu protokollieren, was bei der Fehlersuche in einem Programm
 hilfreich sein kann.
+
+## UUID-Funktionen
+
+In diesem Abschnitt finden Sie Informationen über die UUID-Funktionen,
+die von der `mini-functions`-Bibliothek unterstützt werden.
+
+Die UUID-Funktionen werden verwendet, um eine UUID zu erzeugen, d.h.
+einen eindeutigen Bezeichner, der zur Identifizierung eines bestimmten
+Objekts verwendet werden kann.
+
+Die UUID-Funktionen sind derzeit in der folgenden Tabelle aufgeführt:
+
+### Tabelle 3 - UUID-Funktionen (uuid.rs)
+
+| Funktion | Beschreibung |
+| -------- | ----------- |
+| `new` | Erzeugt eine neue UUID-Instanz. |
+| `uuid_v3` | Erzeugt eine UUID v3. |
+| `uuid_v4` | Erzeugt eine UUID v4. |
+| `uuid_v5` | Erzeugt eine UUID v5. |
+
+Die Funktion `new` erzeugt eine neue UUID-Instanz, die zur Erzeugung von
+UUIDs verwendet werden kann. Die Funktionen `uuid_v3`, `uuid_v4` und
+`uuid_v5` erzeugen eine UUID unter Verwendung einer bestimmten Version
+des UUID-Standards.
+
+Insgesamt können diese Funktionen nützlich sein, um UUIDs zu erzeugen,
+die zur Identifizierung eines bestimmten Objekts nützlich sein können.
+Die Funktionen `uuid_v3` und `uuid_v5` können nützlich sein, um UUIDs
+zu erzeugen, die auf einem Namen basieren, während die Funktion
+`uuid_v4` nützlich sein kann, um UUIDs zu erzeugen, die zufällig sind.

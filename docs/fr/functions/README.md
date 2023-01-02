@@ -126,3 +126,34 @@ journal.
 Globalement, ces fonctions peuvent être utiles pour enregistrer des
 messages sur la console, ce qui peut être utile pour déboguer un
 programme.
+
+## Fonctions UUID
+
+Dans cette section, vous pouvez trouver des informations sur les
+fonctions UUID que la bibliothèque `mini-functions` supporte.
+
+Les fonctions UUID sont utilisées pour générer un UUID, qui est un
+identifiant unique qui peut être utilisé pour identifier un objet
+spécifique.
+
+Les fonctions UUID sont actuellement listées dans le tableau suivant :
+
+### Tableau 3 - Fonctions UUID (uuid.rs)
+
+| Fonction | Description |
+| -------- | ----------- |
+| `new` | Crée une nouvelle instance UUID. |
+| `uuid_v3` | Génère un UUID v3. |
+| `uuid_v4` | Génère une UUID v4. |
+| `uuid_v5` | Génère un UUID v5. |
+
+La fonction `new` crée une nouvelle instance d'UUID, qui peut être
+utilisée pour générer des UUIDs. Les fonctions `uuid_v3`, `uuid_v4`, et
+`uuid_v5` génèrent un UUID en utilisant une version spécifique du
+standard UUID.
+
+Globalement, ces fonctions peuvent être utiles pour générer des UUIDs,
+qui peuvent être utiles pour identifier un objet spécifique. Les
+fonctions `uuid_v3` et `uuid_v5` peuvent être utiles pour générer des
+UUIDs basés sur un nom, tandis que la fonction `uuid_v4` peut être
+utile pour générer des UUIDs qui sont aléatoires.
