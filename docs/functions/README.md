@@ -107,7 +107,7 @@ useful for debugging a program.
 
 The Log function is currently listed in the following table:
 
-### Table 2 - Log Function (log.rs)
+### Log Function (log.rs)
 
 | Function | Description |
 | -------- | ----------- |
@@ -121,7 +121,45 @@ console using the log instance.
 Overall, these functions can be useful for logging messages to the
 console, which can be useful for debugging a program.
 
-## UUID functions
+### QRCode functions
+
+In this section, you can find information about the QRCode functions that
+the `mini-functions` library supports.
+
+The QRCode functions are used to generate a QRCode, which is a two
+dimensional barcode that can be used to store information.
+
+The QRCode functions are currently listed in the following table:
+
+### QRCode Functions (qrcode.rs)
+
+| Function | Description |
+| -------- | ----------- |
+| `colorize` | Colorizes a QRCode instance. |
+| `from_bytes` | Creates a new QRCode instance from a byte array. |
+| `from_string` | Creates a new QRCode instance from a string. |
+| `new` | Creates a new QRCode instance. |
+| `resize` | Resizes the QRCode instance. |
+| `to_png` | Converts the QRCode instance to a PNG image. |
+| `to_qrcode` | Converts the QRCode instance to a QRCode image. |
+| `to_svg` | Converts the QRCode instance to a SVG image. |
+
+The `new` function creates a new QRCode instance, which can be used to
+generate QRCode images. The `from_bytes` and `from_string` functions
+create a new QRCode instance from a byte array or string, respectively.
+
+The `colorize` function colorizes the QRCode instance, which can be used
+to change the color of the QRCode image. The `resize` function resizes
+the QRCode instance, which can be used to change the size of the QRCode
+image.
+
+The `to_qrcode` function converts the QRCode instance to a QRCode image,
+which can be used to display the QRCode image in a program.
+
+The `to_png`, and `to_svg` functions convert the QRCode
+instance to a PNG, or SVG image, respectively.
+
+### UUID functions
 
 In this section, you can find information about the UUID functions that
 the `mini-functions` library supports.
@@ -131,7 +169,7 @@ identifier that can be used to identify a specific object.
 
 The UUID functions are currently listed in the following table:
 
-### Table 3 - UUID Functions (uuid.rs)
+### UUID Functions (uuid.rs)
 
 | Function | Description |
 | -------- | ----------- |

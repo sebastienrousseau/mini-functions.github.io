@@ -85,7 +85,7 @@ Añada la siguiente línea a su archivo Cargo.toml:
 
 ```toml
 [dependencies]
-mini-functions = "0.0.3"
+mini-functions = "0.0.4"
 ```
 
 A continuación, añada la siguiente línea a su archivo main.rs:
