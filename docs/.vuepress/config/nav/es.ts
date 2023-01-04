@@ -16,4 +16,9 @@ export const esNavbar: NavbarConfig = [
     link: '/es/uuid/',
     text: 'UUID',
   },
+  {
+    arialabel: 'QR Code',
+    link: '/es/qrcode/',
+    text: 'QR Code',
+  },
 ]

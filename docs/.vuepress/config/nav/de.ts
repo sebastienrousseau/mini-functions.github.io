@@ -16,4 +16,9 @@ export const deNavbar: NavbarConfig = [
     link: '/de/uuid/',
     text: 'UUID',
   },
+  {
+    arialabel: 'QR Code',
+    link: '/de/qrcode/',
+    text: 'QR Code',
+  },
 ]
