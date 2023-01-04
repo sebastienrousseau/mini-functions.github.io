@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/icons/mini-functions-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/icons/mini-functions.svg" color="#ffffff">
+    <link rel="preload" href="https://unpkg.com/skeletonic-stylus@1.0.5/css/skeletonic-fonts.min.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-D7589EX7X2"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-D7589EX7X2', { 'anonymize_ip': true });</script>
+    <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "f98tr85sw5");</script>
+    <meta name="description" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="keywords" content="date, jour, fonctions, heure, iso_8601, bibliothèque, microseconde, milliseconde, mini-fonctions, minute, mois, nanoseconde, now_utc, rouille, seconde, heure, timestamp, utc, jour de la semaine, année">
+    <meta name="twitter:card" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="twitter:description" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="twitter:title" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="og:title" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="og:description" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="og:image:alt" content="Bibliothèque de fonctions - Une collection de fonctions utiles pour travailler avec divers aspects d&#39;un programme Rust.">
+    <meta name="og:locale" content="fr_FR">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" max-age="0">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta itemprop="accessibilityAPI" content="ARIA">
+    <meta itemprop="accessibilityControl" content="fullKeyboardControl">
+    <meta itemprop="accessibilityHazard" content="noFlashingHazard">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mini Functions">
+    <meta name="application-name" content="Mini Functions">
+    <meta name="author" content="Sebastien Rousseau">
+    <meta name="charset" content="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msvalidate1" content="9B319D8B2CBE7A0E3715EC80C9918F4A">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/mini-functions-144x144.png">
+    <meta name="og:image:height" content="627">
+    <meta name="og:image:type" content="image/png">
+    <meta name="og:image:width" content="1200">
+    <meta name="og:image" content="/logo.png">
+    <meta name="og:robots" content="all">
+    <meta name="og:site_name" content="mini-functions">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="https://minifunctions.com/">
+    <meta name="robots" content="all">
+    <meta name="theme-color" content="#f75308">
+    <meta name="twitter:creator" content="@wwdseb">
+    <meta name="twitter:image" content="/logo.png">
+    <meta name="twitter:site" content="@wwdseb">
+    <meta name="twitter:url" content="https://minifunctions.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preload" href="/assets/css/0.styles.33873ca9.css" as="style"><link rel="preload" href="/assets/js/app.1af39a97.js" as="script"><link rel="preload" href="/assets/js/2.cb38a57c.js" as="script"><link rel="preload" href="/assets/js/22.b60dc53e.js" as="script"><link rel="preload" href="/assets/js/3.73a19b1c.js" as="script"><link rel="prefetch" href="/assets/js/10.7cb3ba23.js"><link rel="prefetch" href="/assets/js/11.03687019.js"><link rel="prefetch" href="/assets/js/12.26a51b15.js"><link rel="prefetch" href="/assets/js/13.f96e88e0.js"><link rel="prefetch" href="/assets/js/14.79cc9f75.js"><link rel="prefetch" href="/assets/js/15.1e292c2b.js"><link rel="prefetch" href="/assets/js/16.132b80a9.js"><link rel="prefetch" href="/assets/js/17.695421d9.js"><link rel="prefetch" href="/assets/js/18.b27d2051.js"><link rel="prefetch" href="/assets/js/19.6fd445d3.js"><link rel="prefetch" href="/assets/js/20.ba4060a9.js"><link rel="prefetch" href="/assets/js/21.1a07b0db.js"><link rel="prefetch" href="/assets/js/23.4e0c5acf.js"><link rel="prefetch" href="/assets/js/24.448d8d2f.js"><link rel="prefetch" href="/assets/js/25.ee6c0372.js"><link rel="prefetch" href="/assets/js/26.7541e187.js"><link rel="prefetch" href="/assets/js/27.6cbb0b5b.js"><link rel="prefetch" href="/assets/js/28.664e8aeb.js"><link rel="prefetch" href="/assets/js/4.808a19a4.js"><link rel="prefetch" href="/assets/js/5.9f6d36e7.js"><link rel="prefetch" href="/assets/js/6.2a1971c1.js"><link rel="prefetch" href="/assets/js/7.c7eb0722.js"><link rel="prefetch" href="/assets/js/8.0d1b33d0.js"><link rel="prefetch" href="/assets/js/9.591b7c20.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.33873ca9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fr/" class="home-link router-link-active"><img src="/mini-functions.webp" alt="Mini Functions" class="logo"> <span class="site-name can-hide">Mini Functions</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fr/about/" class="nav-link">
+  À propos
+</a></div><div class="nav-item"><a href="/fr/functions/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Fonctions
+</a></div><div class="nav-item"><a href="/fr/uuid/" class="nav-link">
+  UUID
+</a></div><div class="nav-item"><a href="/fr/qrcode/" class="nav-link">
+  QR Code
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langues" class="dropdown-title"><span class="title">Langues</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langues" class="mobile-dropdown-title"><span class="title">Langues</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/functions/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/de/functions/" class="nav-link">
+  Deutsch
+</a></li><li class="dropdown-item"><!----> <a href="/es/functions/" class="nav-link">
+  Español
+</a></li><li class="dropdown-item"><!----> <a href="/fr/functions/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/sebastienrousseau/mini-functions.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fr/about/" class="nav-link">
+  À propos
+</a></div><div class="nav-item"><a href="/fr/functions/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Fonctions
+</a></div><div class="nav-item"><a href="/fr/uuid/" class="nav-link">
+  UUID
+</a></div><div class="nav-item"><a href="/fr/qrcode/" class="nav-link">
+  QR Code
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langues" class="dropdown-title"><span class="title">Langues</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langues" class="mobile-dropdown-title"><span class="title">Langues</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/functions/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/de/functions/" class="nav-link">
+  Deutsch
+</a></li><li class="dropdown-item"><!----> <a href="/es/functions/" class="nav-link">
+  Español
+</a></li><li class="dropdown-item"><!----> <a href="/fr/functions/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/sebastienrousseau/mini-functions.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/fr/about/" class="sidebar-link">À propos</a></li><li><a href="/fr/functions/" aria-current="page" class="active sidebar-link">Bibliothèque de fonctions</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/fr/functions/#fonctions-de-la-date-et-de-l-heure" class="sidebar-link">Fonctions de la date et de l'heure</a></li><li class="sidebar-sub-header"><a href="/fr/functions/#fonctions-de-log" class="sidebar-link">Fonctions de log</a></li><li class="sidebar-sub-header"><a href="/fr/functions/#fonctions-uuid" class="sidebar-link">Fonctions UUID</a></li></ul></li><li><a href="/fr/qrcode/" class="sidebar-link">QR Code</a></li><li><a href="/fr/uuid/" class="sidebar-link">UUID</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bibliotheque-de-fonctions-pour-rust-🦀"><a href="#bibliotheque-de-fonctions-pour-rust-🦀" class="header-anchor">#</a> Bibliothèque de fonctions pour Rust 🦀</h1> <p><code>Mini Functions</code> est une bibliothèque de fonctions pour le langage de
+programmation Rust qui fournit une collection d'outils pour travailler
+avec divers aspects d'une application Rust.</p> <p>Elle comprend une gamme de fonctions qui peuvent être utilisées pour
+effectuer une variété de tâches, telles que la récupération et la
+manipulation d'informations sur la date et l'heure actuelles, le
+travail avec des chaînes de caractères et du texte, et la manipulation
+de structures de données.</p> <p>Les fonctions de <code>Mini Functions</code> sont optimisées pour la vitesse et
+l'efficacité, ce qui les rend utiles pour une variété d'applications,
+y compris celles qui nécessitent des performances rapides ou qui
+doivent manipuler de grandes quantités de données.</p> <h2 id="fonctions-de-la-date-et-de-l-heure"><a href="#fonctions-de-la-date-et-de-l-heure" class="header-anchor">#</a> Fonctions de la date et de l'heure</h2> <p>Dans cette section, vous trouverez des informations sur les fonctions de
+date et d'heure prises en charge par la bibliothèque <code>mini-fonctions</code>.</p> <p>Les fonctions de date et d'heure sont utilisées pour récupérer et
+manipuler des informations sur la date et l'heure actuelles. Elles
+peuvent être utilisées pour obtenir diverses parties de la date, comme
+le jour, le mois et l'année, ainsi que diverses parties de l'heure,
+comme l'heure, la minute et la seconde.</p> <p>Ces fonctions peuvent également être utilisées pour obtenir la date et
+l'heure actuelles dans différents formats, tels que l'horodatage ou le
+format ISO 8601.</p> <p>Elles sont actuellement répertoriées par ordre alphabétique dans le
+tableau suivant :</p> <h3 id="tableau-1-fonctions-de-la-date-date-rs"><a href="#tableau-1-fonctions-de-la-date-date-rs" class="header-anchor">#</a> Tableau 1 - Fonctions de la date (date.rs)</h3> <table><thead><tr><th>Fonction</th> <th>Description</th></tr></thead> <tbody><tr><td><code>date</code></td> <td>Renvoie la date du jour au format UTC. (<code>YYYY-MM-DD</code>)</td></tr> <tr><td><code>day</code></td> <td>Renvoie le jour actuel. (<code>1-31</code>)</td></tr> <tr><td><code>hour</code></td> <td>Renvoie l'heure actuelle. (<code>0-23</code>)</td></tr> <tr><td><code>iso_8601</code></td> <td>Renvoie la date et l'heure actuelles au format ISO 8601. (<code>AAAA-MM-DDTHH:mm:ss.SSS±HHMM</code>)</td></tr> <tr><td><code>microsecond</code></td> <td>Renvoie la microseconde actuelle. (<code>0-999999</code>)</td></tr> <tr><td><code>millisecond</code></td> <td>Renvoie la milliseconde actuelle. (<code>0-999</code>)</td></tr> <tr><td><code>minute</code></td> <td>Renvoie la minute actuelle (0-59).</td></tr> <tr><td><code>month</code></td> <td>Renvoie le mois en cours. (<code>Janvier-Décembre</code>)</td></tr> <tr><td><code>nanosecond</code></td> <td>Renvoie la nanoseconde actuelle. (<code>0-999999999</code>)</td></tr> <tr><td><code>now_utc</code></td> <td>Renvoie la date et l'heure actuelles au format UTC. (<code>YYYY-MM-DDTHH:mm:ss.SSS±HH:MM:SS</code>)</td></tr> <tr><td><code>second</code></td> <td>Renvoie la seconde actuelle. (<code>0-59</code>)</td></tr> <tr><td><code>timestamp</code></td> <td>Renvoie l'horodatage actuel en temps Unix en millisecondes. (<code>1610000000000</code>)</td></tr> <tr><td><code>weekday</code></td> <td>Renvoie le jour de la semaine actuel (<code>Dimanche-Samedi</code>).</td></tr> <tr><td><code>year</code></td> <td>Renvoie l'année en cours. (<code>YYYY</code>)</td></tr></tbody></table> <p>Les fonctions ci-dessus permettent de récupérer des informations sur la
+date et l'heure actuelles.</p> <p>Les fonctions <code>date</code> et <code>now_utc</code> retournent toutes deux la date du jour
+, <code>now_utc</code> retournant également l'heure du jour en plus de la date.</p> <p>Les fonctions <code>day</code>, <code>hour</code>, <code>minute</code>, <code>month</code>, <code>second</code>, et <code>year</code>
+renvoient toutes les parties respectives de la date courante.</p> <p>La fonction <code>weekday</code> renvoie le jour de la semaine en cours, le
+dimanche étant représenté par 0 et le samedi par 6.</p> <p>La fonction <code>timestamp</code> renvoie l'horodatage actuel, qui est une
+représentation numérique de la date et de l'heure actuelles. Les
+fonctions <code>microseconde</code>, <code>milliseconde</code> et <code>nanoseconde</code> renvoient les
+parties respectives du temps actuel.</p> <p>La fonction <code>iso_8601</code> renvoie la date et l'heure actuelles au format
+ISO 8601, qui est une représentation normalisée des dates et des heures.</p> <p>Globalement, ces fonctions peuvent être utiles pour récupérer et
+manipuler des informations sur la date et l'heure actuelles dans un
+programme.</p> <h2 id="fonctions-de-log"><a href="#fonctions-de-log" class="header-anchor">#</a> Fonctions de log</h2> <p>Dans cette section, vous trouverez des informations sur les fonctions
+Log que la bibliothèque <code>mini-functions</code> supporte.</p> <p>Les fonctions Log sont utilisées pour enregistrer un message sur la
+console, ce qui peut être utile pour déboguer un programme.</p> <p>La fonction Log est actuellement répertoriée dans le tableau suivant :</p> <h3 id="tableau-2-fonction-logarithmique-log-rs"><a href="#tableau-2-fonction-logarithmique-log-rs" class="header-anchor">#</a> Tableau 2 - Fonction logarithmique (log.rs)</h3> <table><thead><tr><th>Fonction</th> <th>Description</th></tr></thead> <tbody><tr><td><code>new</code></td> <td>Crée une nouvelle instance de log.</td></tr> <tr><td><code>log</code></td> <td>Enregistre un message sur la console.</td></tr></tbody></table> <p>La fonction <code>new</code> crée une nouvelle instance de journal, qui peut être
+utilisée pour enregistrer des messages dans la console. La fonction
+<code>log</code> enregistre un message sur la console en utilisant l'instance de
+journal.</p> <p>Globalement, ces fonctions peuvent être utiles pour enregistrer des
+messages sur la console, ce qui peut être utile pour déboguer un
+programme.</p> <h2 id="fonctions-uuid"><a href="#fonctions-uuid" class="header-anchor">#</a> Fonctions UUID</h2> <p>Dans cette section, vous pouvez trouver des informations sur les
+fonctions UUID que la bibliothèque <code>mini-functions</code> supporte.</p> <p>Les fonctions UUID sont utilisées pour générer un UUID, qui est un
+identifiant unique qui peut être utilisé pour identifier un objet
+spécifique.</p> <p>Les fonctions UUID sont actuellement listées dans le tableau suivant :</p> <h3 id="tableau-3-fonctions-uuid-uuid-rs"><a href="#tableau-3-fonctions-uuid-uuid-rs" class="header-anchor">#</a> Tableau 3 - Fonctions UUID (uuid.rs)</h3> <table><thead><tr><th>Fonction</th> <th>Description</th></tr></thead> <tbody><tr><td><code>new</code></td> <td>Crée une nouvelle instance UUID.</td></tr> <tr><td><code>uuid_v3</code></td> <td>Génère un UUID v3.</td></tr> <tr><td><code>uuid_v4</code></td> <td>Génère une UUID v4.</td></tr> <tr><td><code>uuid_v5</code></td> <td>Génère un UUID v5.</td></tr></tbody></table> <p>La fonction <code>new</code> crée une nouvelle instance d'UUID, qui peut être
+utilisée pour générer des UUIDs. Les fonctions <code>uuid_v3</code>, <code>uuid_v4</code>, et
+<code>uuid_v5</code> génèrent un UUID en utilisant une version spécifique du
+standard UUID.</p> <p>Globalement, ces fonctions peuvent être utiles pour générer des UUIDs,
+qui peuvent être utiles pour identifier un objet spécifique. Les
+fonctions <code>uuid_v3</code> et <code>uuid_v5</code> peuvent être utiles pour générer des
+UUIDs basés sur un nom, tandis que la fonction <code>uuid_v4</code> peut être
+utile pour générer des UUIDs qui sont aléatoires.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/fr/about/" class="prev">
+        À propos
+      </a></span> <span class="next"><a href="/fr/qrcode/">
+        QR Code
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.1af39a97.js" defer></script><script src="/assets/js/2.cb38a57c.js" defer></script><script src="/assets/js/22.b60dc53e.js" defer></script><script src="/assets/js/3.73a19b1c.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>À propos de Mini Functions — Une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/icons/mini-functions-180x180.png" sizes="180x180">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/icons/mini-functions.svg" color="#ffffff">
+    <link rel="preload" href="https://unpkg.com/skeletonic-stylus@1.0.5/css/skeletonic-fonts.min.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-D7589EX7X2"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-D7589EX7X2', { 'anonymize_ip': true });</script>
+    <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "f98tr85sw5");</script>
+    <meta name="description" content="Mini Functions est une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust qui a été soigneusement conçue dans un souci d&#39;optimisation et d&#39;efficacité.">
+    <meta name="keywords" content="performance, utilité, fonctions wrappers, bibliothèque, rust, optimisation, efficacité, abstractions de haut niveau">
+    <meta name="twitter:card" content="Mini Functions est une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust qui a été soigneusement conçue dans un souci d&#39;optimisation et d&#39;efficacité.">
+    <meta name="twitter:description" content="Mini Functions est une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust qui a été soigneusement conçue dans un souci d&#39;optimisation et d&#39;efficacité.">
+    <meta name="twitter:title" content="À propos de Mini Functions — Une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust">
+    <meta name="og:title" content="À propos de Mini Functions — Une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust">
+    <meta name="og:description" content="Mini Functions est une bibliothèque de fonctions utilitaires et de wrappers très performante pour Rust qui a été soigneusement conçue dans un souci d&#39;optimisation et d&#39;efficacité.">
+    <meta name="og:image:alt" content="Mini Functions - Une bibliothèque très performantes de fonctions utilitaires et de wrapper pour Rust">
+    <meta name="og:locale" content="fr_FR">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" max-age="0">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta itemprop="accessibilityAPI" content="ARIA">
+    <meta itemprop="accessibilityControl" content="fullKeyboardControl">
+    <meta itemprop="accessibilityHazard" content="noFlashingHazard">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mini Functions">
+    <meta name="application-name" content="Mini Functions">
+    <meta name="author" content="Sebastien Rousseau">
+    <meta name="charset" content="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msvalidate1" content="9B319D8B2CBE7A0E3715EC80C9918F4A">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/mini-functions-144x144.png">
+    <meta name="og:image:height" content="627">
+    <meta name="og:image:type" content="image/png">
+    <meta name="og:image:width" content="1200">
+    <meta name="og:image" content="/logo.png">
+    <meta name="og:robots" content="all">
+    <meta name="og:site_name" content="mini-functions">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="https://minifunctions.com/">
+    <meta name="robots" content="all">
+    <meta name="theme-color" content="#f75308">
+    <meta name="twitter:creator" content="@wwdseb">
+    <meta name="twitter:image" content="/logo.png">
+    <meta name="twitter:site" content="@wwdseb">
+    <meta name="twitter:url" content="https://minifunctions.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preload" href="/assets/css/0.styles.33873ca9.css" as="style"><link rel="preload" href="/assets/js/app.1af39a97.js" as="script"><link rel="preload" href="/assets/js/2.cb38a57c.js" as="script"><link rel="preload" href="/assets/js/21.1a07b0db.js" as="script"><link rel="preload" href="/assets/js/3.73a19b1c.js" as="script"><link rel="prefetch" href="/assets/js/10.7cb3ba23.js"><link rel="prefetch" href="/assets/js/11.03687019.js"><link rel="prefetch" href="/assets/js/12.26a51b15.js"><link rel="prefetch" href="/assets/js/13.f96e88e0.js"><link rel="prefetch" href="/assets/js/14.79cc9f75.js"><link rel="prefetch" href="/assets/js/15.1e292c2b.js"><link rel="prefetch" href="/assets/js/16.132b80a9.js"><link rel="prefetch" href="/assets/js/17.695421d9.js"><link rel="prefetch" href="/assets/js/18.b27d2051.js"><link rel="prefetch" href="/assets/js/19.6fd445d3.js"><link rel="prefetch" href="/assets/js/20.ba4060a9.js"><link rel="prefetch" href="/assets/js/22.b60dc53e.js"><link rel="prefetch" href="/assets/js/23.4e0c5acf.js"><link rel="prefetch" href="/assets/js/24.448d8d2f.js"><link rel="prefetch" href="/assets/js/25.ee6c0372.js"><link rel="prefetch" href="/assets/js/26.7541e187.js"><link rel="prefetch" href="/assets/js/27.6cbb0b5b.js"><link rel="prefetch" href="/assets/js/28.664e8aeb.js"><link rel="prefetch" href="/assets/js/4.808a19a4.js"><link rel="prefetch" href="/assets/js/5.9f6d36e7.js"><link rel="prefetch" href="/assets/js/6.2a1971c1.js"><link rel="prefetch" href="/assets/js/7.c7eb0722.js"><link rel="prefetch" href="/assets/js/8.0d1b33d0.js"><link rel="prefetch" href="/assets/js/9.591b7c20.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.33873ca9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/fr/" class="home-link router-link-active"><img src="/mini-functions.webp" alt="Mini Functions" class="logo"> <span class="site-name can-hide">Mini Functions</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/fr/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  À propos
+</a></div><div class="nav-item"><a href="/fr/functions/" class="nav-link">
+  Fonctions
+</a></div><div class="nav-item"><a href="/fr/uuid/" class="nav-link">
+  UUID
+</a></div><div class="nav-item"><a href="/fr/qrcode/" class="nav-link">
+  QR Code
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langues" class="dropdown-title"><span class="title">Langues</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langues" class="mobile-dropdown-title"><span class="title">Langues</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/de/about/" class="nav-link">
+  Deutsch
+</a></li><li class="dropdown-item"><!----> <a href="/es/about/" class="nav-link">
+  Español
+</a></li><li class="dropdown-item"><!----> <a href="/fr/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/sebastienrousseau/mini-functions.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/fr/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  À propos
+</a></div><div class="nav-item"><a href="/fr/functions/" class="nav-link">
+  Fonctions
+</a></div><div class="nav-item"><a href="/fr/uuid/" class="nav-link">
+  UUID
+</a></div><div class="nav-item"><a href="/fr/qrcode/" class="nav-link">
+  QR Code
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Langues" class="dropdown-title"><span class="title">Langues</span> <span class="arrow down"></span></button> <button type="button" aria-label="Langues" class="mobile-dropdown-title"><span class="title">Langues</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/de/about/" class="nav-link">
+  Deutsch
+</a></li><li class="dropdown-item"><!----> <a href="/es/about/" class="nav-link">
+  Español
+</a></li><li class="dropdown-item"><!----> <a href="/fr/about/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Français
+</a></li></ul></div></div> <a href="https://github.com/sebastienrousseau/mini-functions.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/fr/about/" aria-current="page" class="active sidebar-link">À propos</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/fr/about/#introduction" class="sidebar-link">Introduction</a></li><li class="sidebar-sub-header"><a href="/fr/about/#caracteristiques-principales" class="sidebar-link">Caractéristiques principales</a></li><li class="sidebar-sub-header"><a href="/fr/about/#support-de-la-plateforme" class="sidebar-link">Support de la plateforme</a></li><li class="sidebar-sub-header"><a href="/fr/about/#installation" class="sidebar-link">Installation</a></li><li class="sidebar-sub-header"><a href="/fr/about/#politique-de-versionnement-semantique" class="sidebar-link">Politique de versionnement sémantique</a></li><li class="sidebar-sub-header"><a href="/fr/about/#historique-des-modifications" class="sidebar-link">Historique des modifications</a></li><li class="sidebar-sub-header"><a href="/fr/about/#code-de-bonne-conduite" class="sidebar-link">Code de bonne conduite</a></li><li class="sidebar-sub-header"><a href="/fr/about/#nos-valeurs" class="sidebar-link">Nos valeurs</a></li><li class="sidebar-sub-header"><a href="/fr/about/#contributing" class="sidebar-link">Contributing</a></li><li class="sidebar-sub-header"><a href="/fr/about/#license" class="sidebar-link">License</a></li><li class="sidebar-sub-header"><a href="/fr/about/#remerciements" class="sidebar-link">Remerciements</a></li></ul></li><li><a href="/fr/functions/" class="sidebar-link">Bibliothèque de fonctions</a></li><li><a href="/fr/qrcode/" class="sidebar-link">QR Code</a></li><li><a href="/fr/uuid/" class="sidebar-link">UUID</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bienvenue-a-mini-functions-👋"><a href="#bienvenue-a-mini-functions-👋" class="header-anchor">#</a> Bienvenue à Mini Functions 👋</h1> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/banners/banner-mini-functions.svg" alt="banner" title="Bannière pour Mini Functions"></p> <h2 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h2> <p><code>Mini Functions</code> est une bibliothèque de fonctions utilitaires et de
+wrappers très performante pour Rust qui a été soigneusement conçue dans
+un souci d'optimisation et d'efficacité.</p> <p>En fournissant des fonctions wrappers pratiques, notre bibliothèque
+vise à fournir une interface de haut niveau pour les tâches courantes
+tout en tirant parti des avantages de performance de Rust sous le capot.</p> <p>Ces fonctions utilitaires constituent une boîte à outils essentielle
+pour tout développeur Rust, et les abstractions de conception de la
+bibliothèque permettent une intégration facile dans une variété de
+projets et d'applications.</p> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="caracteristiques-principales"><a href="#caracteristiques-principales" class="header-anchor">#</a> Caractéristiques principales</h2> <ul><li><strong>Construit avec Rust</strong> — Un langage de programmation moderne, bien
+adapté à la construction de systèmes performants, fiables et
+sécurisés.</li> <li><strong>Fonctions utilitaires de haut niveau</strong> — Une collection de fonctions
+abstraites de haut niveau pour des tâches courantes, telles que la
+manipulation de chaînes de caractères, la manipulation de fichiers et
+l'analyse syntaxique de données.</li> <li><strong>Des fonctions wrapper pour un accès facile</strong> — Fonctions wrapper qui
+fournissent une interface plus pratique pour accéder aux bibliothèques
+ou aux API Rust sous-jacentes et les utiliser dans vos projets.</li> <li><strong>Outils d'optimisation et de performance</strong> — Des outils pour
+optimiser et améliorer les performances du code Rust.</li> <li><strong>Support multi-plateforme</strong> — Prise en charge de diverses plates-
+formes, notamment les ordinateurs de bureau, les téléphones mobiles et
+le Web.</li> <li><strong>Documentation complète et exemples</strong> — Documentation et exemples
+pour aider les développeurs à comprendre et à utiliser efficacement
+la bibliothèque.</li> <li><strong>Maintenance et mises à jour régulières</strong> — Mises à jour et
+maintenance régulières pour que la bibliothèque reste à jour et
+fiable.</li></ul> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="support-de-la-plateforme"><a href="#support-de-la-plateforme" class="header-anchor">#</a> Support de la plateforme</h2> <p><code>Mini Functions</code> est disponible pour une large gamme de plateformes, y
+compris macOS, Linux et Windows. Elle est également disponible pour de
+multiples architectures de CPU, notamment x86_64, arm64 et armv7. Cela
+signifie que vous pouvez utiliser la bibliothèque sur une variété
+d'appareils, y compris les ordinateurs de bureau, les ordinateurs
+portables et les appareils mobiles.</p> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="installation"><a href="#installation" class="header-anchor">#</a> Installation</h2> <p>Ajoutez la ligne suivante à votre fichier Cargo.toml :</p> <div class="language-toml extra-class"><pre class="language-toml"><code><span class="token punctuation">[</span><span class="token table class-name">dependencies</span><span class="token punctuation">]</span>
+<span class="token key property">mini-functions</span> <span class="token punctuation">=</span> <span class="token string">&quot;0.0.4&quot;</span>
+</code></pre></div><p>Ensuite, ajoutez la ligne suivante à votre fichier main.rs :</p> <div class="language-rust extra-class"><pre class="language-rust"><code><span class="token keyword">use</span> <span class="token namespace">mini_functions<span class="token punctuation">::</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
+</code></pre></div><p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="politique-de-versionnement-semantique"><a href="#politique-de-versionnement-semantique" class="header-anchor">#</a> Politique de versionnement sémantique</h2> <p>Pour des raisons de transparence dans notre cycle de mise à jour et dans
+le but de maintenir la rétrocompatibilité, <code>Mini Functions</code> suit la
+méthode des <a href="http://semver.org/" title="Version sémantique 2.0.0" target="_blank" rel="noopener noreferrer">versions sémantiques<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="historique-des-modifications"><a href="#historique-des-modifications" class="header-anchor">#</a> Historique des modifications</h2> <ul><li>Les <a href="https://raw.githubusercontent.com/sebastienrousseau/mini-functions.github.io/releases" title="Versions GitHub pour le site web Mini Functions" target="_blank" rel="noopener noreferrer">versions de GitHub<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> sont utilisés pour les journaux de
+modifications du projet.</li></ul> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="code-de-bonne-conduite"><a href="#code-de-bonne-conduite" class="header-anchor">#</a> Code de bonne conduite</h2> <p>Nous nous engageons à préserver et à favoriser une communauté
+diversifiée et accueillante. Veuillez lire notre
+<a href="https://raw.githubusercontent.com/sebastienrousseau/mini-functions.github.io/main/.github/CONTRIBUTING.md" title="#Code de bonne conduite" target="_blank" rel="noopener noreferrer">Code de bonne conduite<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="nos-valeurs"><a href="#nos-valeurs" class="header-anchor">#</a> Nos valeurs</h2> <ul><li>Nous pensons que la perfection doit tout prendre en compte.</li> <li>Nous transposons notre passion au-delà du code dans nos pratiques
+quotidiennes.</li> <li>Nous sommes tout simplement obsédés par la création et la fourniture
+de solutions exceptionnelles.</li></ul> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="contributing"><a href="#contributing" class="header-anchor">#</a> Contributing</h2> <p>Merci d'avoir utilisé <code>Mini Functions</code>! Si vous aimez la bibliothèque,
+ce serait génial si vous pouviez lui donner une étoile ⭐ sur
+<a href="https://github.com/sebastienrousseau/mini-functions.github.io/" title="Dépôt GitHub pour Mini Functions" target="_blank" rel="noopener noreferrer">Github<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.</p> <p>Il existe également de nombreuses façons de participer à ce projet,
+par exemple :</p> <ul><li><a href="https://github.com/sebastienrousseau/mini-functions.github.io/issues" title="Issues GitHub pour Mini Functions" target="_blank" rel="noopener noreferrer">Soumettre des bogues et des demandes de fonctionnalités<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>, et
+aidez-nous à les vérifier au fur et à mesure qu'ils sont enregistrés,</li> <li>Passer en revue la <a href="https://minifunctions.com" title="Site web Mini Functions" target="_blank" rel="noopener noreferrer">documentation<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> et faites des demandes de
+retrait pour tout ce qui concerne les fautes de frappe ou le contenu
+supplémentaire et nouveau.</li></ul> <p>Veuillez lire attentivement notre <a href="https://raw.githubusercontent.com/sebastienrousseau/mini-functions.github.io/main/.github/CONTRIBUTING.md" title="#Code de bonne conduite" target="_blank" rel="noopener noreferrer">Guide de contribution<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> pour plus
+de détails sur la procédure à suivre pour nous soumettre des demandes
+de retrait.</p> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="license"><a href="#license" class="header-anchor">#</a> License</h2> <p>Le projet est régi par les termes de la licence MIT et de la licence
+Apache (version 2.0).</p> <ul><li><a href="http://www.apache.org/licenses/LICENSE-2.0" title="Licence Apache, version 2.0" target="_blank" rel="noopener noreferrer">Licence Apache, version 2.0<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="http://opensource.org/licenses/MIT" title="License MIT" target="_blank" rel="noopener noreferrer">License MIT<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <p><img src="https://raw.githubusercontent.com/sebastienrousseau/vault/main/assets/elements/divider.svg" alt="divider" title="Diviseur pour le site web Mini Functions"></p> <h2 id="remerciements"><a href="#remerciements" class="header-anchor">#</a> Remerciements</h2> <p><a href="https://minifunctions.com" title="Site web Mini Functions" target="_blank" rel="noopener noreferrer">Mini Functions<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> est magnifiquement conçu par ces personnes et un
+grand nombre de <a href="https://github.com/sebastienrousseau/mini-functions.github.io/graphs/contributors" title="List des contributeurs" target="_blank" rel="noopener noreferrer">contributeurs<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <table><thead><tr><th style="text-align:center;"><a href="https://github.com/sebastienrousseau" title="Sebastien Rousseau" target="_blank" rel="noopener noreferrer"><img src="https://avatars0.githubusercontent.com/u/1394998?s=117" alt="sr" title="Sebastien Rousseau"><span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></th></tr></thead> <tbody><tr><td style="text-align:center;"><a href="https://github.com/sebastienrousseau" title="Sebastien Rousseau" target="_blank" rel="noopener noreferrer">Sebastien Rousseau<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/fr/functions/">
+        Bibliothèque de fonctions
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.1af39a97.js" defer></script><script src="/assets/js/2.cb38a57c.js" defer></script><script src="/assets/js/21.1a07b0db.js" defer></script><script src="/assets/js/3.73a19b1c.js" defer></script>
+  </body>
+</html>
