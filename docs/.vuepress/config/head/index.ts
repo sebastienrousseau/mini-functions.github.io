@@ -109,14 +109,14 @@ export const headers: string[] = [
     'script',
     {
       async: true,
-      src: 'https://www.googletagmanager.com/gtag/js?id=G-2FNM3K7KB5',
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-D7589EX7X2',
     },
   ],
   [
     'script',
     {},
     [
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-2FNM3K7KB5', { 'anonymize_ip': true });",
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-D7589EX7X2', { 'anonymize_ip': true });",
     ],
   ],
   [
