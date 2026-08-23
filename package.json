@@ -27,7 +27,7 @@
   },
   "prettier": "prettier-config-vuepress",
   "private": "true",
-  "license": "MIT",
+  "license": "Apache-2.0 OR MIT",
   "scripts": {
     "build": "vuepress build docs",
     "clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache dist",
