@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://minifunctions.com/sitemap.xml
