@@ -16,3 +16,15 @@ jobs:
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist/
+
+  # Deploys the gh-pages branch just published, with GitHub Actions
+  # (see pages.yml).
+  pages:
+    name: Deploy Pages
+    needs: build-and-deploy
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
