@@ -105,23 +105,4 @@ export const headers: string[] = [
     'meta',
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
   ],
-  [
-    'script',
-    {
-      async: true,
-      src: 'https://www.googletagmanager.com/gtag/js?id=G-D7589EX7X2',
-    },
-  ],
-  [
-    'script',
-    {},
-    [
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-D7589EX7X2', { 'anonymize_ip': true });",
-    ],
-  ],
-  [
-    'script',
-    {},
-    `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "f98tr85sw5");`,
-  ],
 ]
