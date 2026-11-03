@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/icons/mini-functions-70x70.png" />
+      <square150x150logo src="/icons/mini-functions-150x150.png" />
+      <wide310x150logo src="/icons/mini-functions-310x150.png" />
+      <square310x310logo src="/icons/mini-functions-310x310.png" />
+      <TileColor>#f75308</TileColor>
+      <TileImage src="/icons/mini-functions-150x150.png" />
+    </tile>
+  </msapplication>
+</browserconfig>
